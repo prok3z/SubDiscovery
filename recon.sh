@@ -13,14 +13,15 @@ domain=$1
 
 logo(){
 
-echo " __.   .    .__  Automation for SubDomains"                        
-echo "(__ . .|_   |  \* __ _. _ .  , _ ._.  ."
-echo ".__)(_|[_)  |__/|_) (_.(_) \/ (/,[  \_|"
-echo "                           @prok3z  ._|"
+echo -e "${Cyan} __.   .    .__  Automation for SubDomains                        
+(__ . .|_   |  \* __ _. _ .  , _ ._.  .
+.__)(_|[_)  |__/|_) (_.(_) \/ (/,[  \_|
+                           @prok3z  ._|"
 
 
 }
 passive_enum(){
+echo ""
 subfinder -d $domain -o subfin
 assetfinder -subs-only $domain | tee asset
 amass enum -passive -d $domain -o passive.txt
