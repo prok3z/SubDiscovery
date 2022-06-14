@@ -25,6 +25,9 @@ subfinder -d $domain -o subfin
 assetfinder -subs-only $domain | tee asset
 amass enum -passive -d $domain -o passive.txt
 findomain -t $domain -q -u find
+cat subfin asset passive.txt find > urls
+cat urls | anew hosts
+cat hosts | httprobe -c 80 | tee domains
 }
 
 if [ "$1" ];then
