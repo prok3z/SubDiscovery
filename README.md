@@ -4,5 +4,5 @@ Automation for SubDomains
 # Usage
 
 ```
-$ ./recon.sh target.com
+$ ./sub.sh target.com
 ```
