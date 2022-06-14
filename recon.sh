@@ -21,7 +21,6 @@ echo -e "${Cyan} __.   .    .__  Automation for SubDomains
 
 }
 passive_enum(){
-echo ""
 subfinder -d $domain -o subfin
 assetfinder -subs-only $domain | tee asset
 amass enum -passive -d $domain -o passive.txt
