@@ -29,6 +29,7 @@ cat subfin asset passive.txt find > urls
 cat urls | anew hosts
 cat hosts | httpx -silent -timeout 50 -mc 200 -o domains
 rm -rf subfin asset passive.txt find hosts
+echo "Scan Finalizado"
 }
 
 if [ "$1" ];then
