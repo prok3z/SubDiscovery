@@ -27,7 +27,8 @@ amass enum -passive -d $domain -o passive.txt
 findomain -t $domain -q -u find
 cat subfin asset passive.txt find > urls
 cat urls | anew hosts
-cat hosts | httprobe -c 80 | tee domains
+cat hosts | httpx -silent -timeout 50 -mc 200 -o domains
+rm -rf subfin asset passive.txt find hosts
 }
 
 if [ "$1" ];then
