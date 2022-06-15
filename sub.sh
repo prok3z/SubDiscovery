@@ -28,7 +28,7 @@ findomain -t $domain -q -u find
 cat subfin asset passive.txt find > urls
 cat urls | anew hosts
 cat hosts | httpx -silent -timeout 50 -mc 200 -o domains
-rm -rf subfin asset passive.txt find hosts
+rm -rf subfin asset passive.txt find hosts urls
 echo "Successful Enumeration"
 }
 
