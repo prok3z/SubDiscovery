@@ -21,6 +21,8 @@ echo -e "${Cyan} __.   .    .__  Automation for SubDomains
 
 }
 passive_enum(){
+echo "Scanner Initialized"
+sleep 1
 subfinder -d $domain -o subfin
 assetfinder -subs-only $domain | tee asset
 amass enum -passive -d $domain -o passive.txt
