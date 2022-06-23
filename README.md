@@ -1,6 +1,12 @@
 # SubDiscovery
 Automation for SubDomains
 
+# Tools
+- [subfinder](https://github.com/projectdiscovery/subfinder)
+- [assetfinder](https://github.com/tomnomnom/assetfinder)
+- [amass](https://github.com/OWASP/Amass)
+- [findomain](https://github.com/Findomain/Findomain)
+
 # Usage
 
 ```
