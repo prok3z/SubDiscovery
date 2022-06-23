@@ -1,6 +1,14 @@
 # SubDiscovery
 Automation for SubDomains
 
+```
+ __.   .    .__  Automation for SubDomains                        
+(__ . .|_   |  \* __ _. _ .  , _ ._.  .
+.__)(_|[_)  |__/|_) (_.(_) \/ (/,[  \_|
+                           @prok3z  ._|
+	./sub.sh target.com
+  ```
+
 # Tools
 - [subfinder](https://github.com/projectdiscovery/subfinder)
 - [assetfinder](https://github.com/tomnomnom/assetfinder)
