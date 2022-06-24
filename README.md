@@ -10,10 +10,10 @@ Automation for SubDomains
   ```
 
 # Tools
-- [subfinder](https://github.com/projectdiscovery/subfinder)
-- [assetfinder](https://github.com/tomnomnom/assetfinder)
-- [amass](https://github.com/OWASP/Amass)
-- [findomain](https://github.com/Findomain/Findomain)
+- [Subfinder](https://github.com/projectdiscovery/subfinder)
+- [Assetfinder](https://github.com/tomnomnom/assetfinder)
+- [Amass](https://github.com/OWASP/Amass)
+- [Findomain](https://github.com/Findomain/Findomain)
 
 # Usage
 
