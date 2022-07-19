@@ -9,7 +9,7 @@ Automation for SubDomains
 	./sub.sh target.com
   ```
 
-# Requiriments
+# Requirements
 - [Subfinder](https://github.com/projectdiscovery/subfinder)
 - [Assetfinder](https://github.com/tomnomnom/assetfinder)
 - [Amass](https://github.com/OWASP/Amass)
